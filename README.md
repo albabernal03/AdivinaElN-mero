@@ -7,6 +7,6 @@ https://github.com/albabernal03/AdivinaElN-mero.git
 Hemos resuelto un juego de adivinar el número entre 0 y 99.
 El diagrama de flujo es el siguiente:
 
-![diagrama de flujo de adivine el número]
+![diagrama de flujo de adivine el número]()
 
 
