@@ -12,7 +12,7 @@ Hemos resuelto un juego de adivinar un número, que se encuentra en un determina
 
 El diagrama de flujo es el siguiente:
 
-![diagrama de flujo de adivine el número](![DIAGRAMA DE FLUJO](https://user-images.githubusercontent.com/91721875/141657773-eefa258c-38dd-4c2a-9db6-aad4826eb70d.jpg)
+(![DIAGRAMA DE FLUJO](https://user-images.githubusercontent.com/91721875/141657773-eefa258c-38dd-4c2a-9db6-aad4826eb70d.jpg)
 
 ```
 import random 
