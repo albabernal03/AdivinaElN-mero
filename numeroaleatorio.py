@@ -2,7 +2,19 @@
 import random
 
 def jugar(nivel):
-    
+    aleatorio = 0
+    intentos = 1
+
+    if nivel == 1:
+        aleatorio = random.range(0,100)
+    elif nivel == 2:
+        aleatorio == random.range(0,1000)
+    elif nivel == 3:
+        aleatorio = random.range(0,10000000)
+    elif nivel == 4:
+        aleatorio = random.range(0,1000000000000)
+    else:
+        aleatorio = random.range(0,100)
 
 
 # aleatorio = random.randrange(0,99)
