@@ -4,7 +4,7 @@
 Mi dirección de Githup para este repositorio es el siguiente:[Githup](https://github.com/albabernal03/AdivinaElN-mero.git)
 https://github.com/albabernal03/AdivinaElN-mero.git
 
-Hemos resuelto un juego de adivinar un número, que se encuentra en un determinado rango dependiendo del nivle seleccionado. En total hay cuatro niveles:
+Hemos resuelto un juego de adivinar un número, que se encuentra en un determinado rango dependiendo del nivel seleccionado. En total hay cuatro niveles:
 1. Nivel (0-100) 
 2. nivel (0-1000)
 3. Nivel (0-1000000)
