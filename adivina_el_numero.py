@@ -21,8 +21,8 @@ def jugar(nivel):
         rangoMax = 1000000
         intentosMax = 100
     elif nivel == 4:
-        aleatorio = random.randrange(0,1000000000)
-        rangoMax = 10000000000
+        aleatorio = random.randrange(0,1000000000000)
+        rangoMax = 1000000000000
         intentosMax = 500
     else:
         aleatrorio = random.randrange(0,100)
@@ -61,6 +61,13 @@ def jugar(nivel):
         print('Cantidad de intentos:', intentos)
         print('Puntuacion final:', puntuacion)
 
+        nombre = input('Indique su nombre: ')
+        print('------------------------------------')
+        print('NOMBRE      INTENTOS     PUNTUACIÓN')
+        print('-------------------------------------')
+        print(nombre, '\t' ,intentos, '\t', puntuacion)
+        print('--------------------------------------')
+
 
 
 def menu():
@@ -68,9 +75,9 @@ def menu():
     print('.::ADIVINA EN NÚMERO::.')
     print('Niveles:')
     print('1. Del 0 al 100')
-    print('2. Del 0 al 1000 ')
-    print('3. Del 0 al 1000000')
-    print('4. Del 0 1000000000')
+    print('2. Del 0 al 1.000 ')
+    print('3. Del 0 al 1.000.000')
+    print('4. Del 0 1.000.000.000.000')
     nivel = int(input('Seleccione un nivel (1-4):'))
     return nivel
 
