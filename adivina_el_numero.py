@@ -5,22 +5,28 @@ def jugar(nivel):
     rangoMax = 0
     mensaje = ''
     aleatorio = 0
+    intentoMax = 0
 
     if nivel == 1:
         aleatorio = random.randrange(0,100)
         rangoMax= 100
+        intentoMax = 10
     elif nivel == 2:
         aleatorio == random.randrange(0,1000)
         rangoMax = 1000
+        intentoMax = 20
     elif nivel == 3:
         aleatorio = random.randrange(0,1000000)
         rangoMax = 1000000
+        intentoMax = 100
     elif nivel == 4:
         aleatorio = random.randrange(0,1000000000)
         rangoMax = 10000000000
+        intentoMax = 500
     else:
         aleatrorio = random.randrange(0,100)
         rangoMax= 100
+        intentoMax = 10
     
     mensaje = 'Adivina el número (0-' + str(rangoMax) + '): '
     numero = int(input(mensaje))
