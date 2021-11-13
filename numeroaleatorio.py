@@ -25,3 +25,7 @@ def menu():
     print('4. Del 0 al 1.000.000.000.000')
     nivel=int(input('Selecciona un nivel(1-4):'))
     return nivel
+
+def juego():
+    nivel = menu()
+    print('.:NIVEL SELECCIONADO:', nivel,'.::.')
