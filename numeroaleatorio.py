@@ -23,4 +23,5 @@ def menu():
     print('2. Del 0 al 1000')
     print('3. Del 0 al 1.000.000')
     print('4. Del 0 al 1.000.000.000.000')
-    
+    nivel=int(input('Selecciona un nivel(1-4):'))
+    return nivel
