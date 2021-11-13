@@ -6,6 +6,7 @@ def jugar(nivel):
     mensaje = ''
     aleatorio = 0
     intentosMax = 0
+    puntuación = 1000
 
     if nivel == 1:
         aleatorio = random.randrange(0,100)
