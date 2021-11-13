@@ -6,7 +6,7 @@ def jugar(nivel):
     mensaje = ''
     aleatorio = 0
     intentosMax = 0
-    puntuación = 1000
+    puntuacion = 1000
 
     if nivel == 1:
         aleatorio = random.randrange(0,100)
@@ -37,6 +37,18 @@ def jugar(nivel):
             print('Se ha pasado!')
         else:
             print('Se ha quedado corto!')
+
+        if nivel == 1:
+            puntuacion -= 1
+        elif nivel == 2:
+            puntuacion -= 5
+        elif nivel  == 3:
+            puntuacion -= 10
+        elif nivel == 4:
+            puntuacion -= 15
+        else:
+            puntuacion -= 1
+        
         
         numero = int(input(mensaje))
         intentos += 1
