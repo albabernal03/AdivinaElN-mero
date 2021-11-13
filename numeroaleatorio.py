@@ -1,5 +1,10 @@
 
-# import random
+import random
+
+def jugar(nivel):
+    
+
+
 # aleatorio = random.randrange(0,99)
 # intentos = 1
 # numero = int(input('Adivina el número entre 0 y 99:'))
@@ -29,3 +34,4 @@ def menu():
 def juego():
     nivel = menu()
     print('.:NIVEL SELECCIONADO:', nivel,'.::.')
+
