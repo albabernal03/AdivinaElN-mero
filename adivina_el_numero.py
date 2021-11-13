@@ -5,33 +5,33 @@ def jugar(nivel):
     rangoMax = 0
     mensaje = ''
     aleatorio = 0
-    intentoMax = 0
+    intentosMax = 0
 
     if nivel == 1:
         aleatorio = random.randrange(0,100)
         rangoMax= 100
-        intentoMax = 10
+        intentosMax = 10
     elif nivel == 2:
         aleatorio == random.randrange(0,1000)
         rangoMax = 1000
-        intentoMax = 20
+        intentosMax = 20
     elif nivel == 3:
         aleatorio = random.randrange(0,1000000)
         rangoMax = 1000000
-        intentoMax = 100
+        intentosMax = 100
     elif nivel == 4:
         aleatorio = random.randrange(0,1000000000)
         rangoMax = 10000000000
-        intentoMax = 500
+        intentosMax = 500
     else:
         aleatrorio = random.randrange(0,100)
         rangoMax= 100
-        intentoMax = 10
+        intentosMax = 10
     
     mensaje = 'Adivina el número (0-' + str(rangoMax) + '): '
     numero = int(input(mensaje))
 
-    while numero != aleatorio:
+    while numero != aleatorio and intentos <= intentosMax:
         if numero >aleatorio:
             print('Se ha pasado!')
         else:
@@ -39,9 +39,14 @@ def jugar(nivel):
         
         numero = int(input(mensaje))
         intentos += 1
+    
+    if numero != aleatorio:
+        print('Has perdido!')
+        print('Número máximo de intentos superado!')
+    else:
+        print('Has adivinado el número', numero)
+        print('Cantidad de intentos:', intentos)
 
-    print ('Has adivinado el número', numero)
-    print ('Cantidad de intentos:', intentos)
 
 
 def menu():
