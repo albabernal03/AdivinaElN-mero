@@ -59,6 +59,7 @@ def jugar(nivel):
     else:
         print('Has adivinado el número', numero)
         print('Cantidad de intentos:', intentos)
+        print('Puntuacion final:', puntuacion)
 
 
 
